@@ -1,28 +1,32 @@
+import img1 from "../../public/images/botol1.jpg"
+import img2 from "../../public/images/lake-green-light-nature.jpg"
+import img3 from "../../public/images/pic1.jpg"
+
 const Banner = () => {
 	return (
 		<div>
-			<div className="carousel w-full">
+			<div className="carousel w-full h-96">
 				<div id="item1" className="carousel-item w-full">
 					<img
-						src="/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+						src="https://i.ibb.co/5220YGZ/lake-green-light-nature.jpg"
 						className="w-full"
 					/>
 				</div>
 				<div id="item2" className="carousel-item w-full">
 					<img
-						src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+						src="https://i.ibb.co/MB3yXYg/botol1.jpg"
 						className="w-full"
 					/>
 				</div>
 				<div id="item3" className="carousel-item w-full">
 					<img
-						src="/images/stock/photo-1414694762283-acccc27bca85.jpg"
+						src="https://i.ibb.co/dmk7wkp/kit2.jpg"
 						className="w-full"
 					/>
 				</div>
 				<div id="item4" className="carousel-item w-full">
 					<img
-						src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+						src="https://i.ibb.co/P9smk2Z/Students-University.jpg"
 						className="w-full"
 					/>
 				</div>
